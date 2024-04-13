@@ -38,5 +38,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "abdelilahma-appiffy-lab-31"
-          entrypoint: "dist/main.js"
+          entrypoint: "main.ts"
           root: "dist"
