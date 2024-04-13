@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    console.log(`db name here : `, `${process.env.DB_HOST_SECTION_1}${process.env.DB_USERNAME}:${process.env.DB_PASSWORD}${process.env.DB_HOST_SECTION_2}/${process.env.DB_NAME}`)
+    console.log('db name here : ')
     return this.appService.getHello();
   }
 }
